@@ -1,0 +1,18 @@
+Disable-UAC
+
+choco install git.install
+
+choco install googlejapaneseinput
+choco install googlechrome
+choco install teamviewer
+choco install 7zip
+choco install slack
+choco install discord
+choco install anaconda3
+
+choco install steam
+choco install twitch
+
+Enable-UAC
+Enable-MicrosoftUpdate
+Install-WindowsUpdate -acceptEula
